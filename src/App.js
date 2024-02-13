@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    //Rahul-Arpit go through these :
+    <div>
+      <br/>
+      <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tasks to do :</b>
+      <ul>
+      <li>Integrate Firebase.</li>
+      <li>Implement App Router using React Router DOM (Let's go with browser router).</li>      
+      <li>Create Authentication Route and make it Default Landing. </li>
+      <li>Create Authentication Feature using Firebase.</li>
+      <li>Create Profie Feature and all the related functionalities.</li> 
+      </ul>
     </div>
   );
 }
